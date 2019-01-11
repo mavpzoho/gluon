@@ -10,6 +10,7 @@ namespace Gluon.Tester.Server.Conosle
         static void Main(string[] args)
         {
             Console.WriteLine("Starting Gluon Relay Tester Server...");
+            //test atom
 
             var svcHost = new AppServiceHost<FileSystemQueryService>("FileSystemQueryServiceHost", HubChannelUri);
 
