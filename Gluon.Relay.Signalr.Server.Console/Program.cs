@@ -6,6 +6,7 @@
         {
             System.Console.WriteLine("Starting Gluon SignalR Relay Server...");
             Startup.BuildAndRunWebHost(args);
+            // what the hell is this
         }
     }
 }
